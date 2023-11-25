@@ -100,8 +100,9 @@ nav {
   margin: 1.5rem 0rem;
 }
 .secondary-button {
-  padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
+  margin: 1rem;
+  padding: 0.8rem 1.8rem;
+  background-color: #517a90;
   outline: none;
   border: none;
   border-radius: 5rem;

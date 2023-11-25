@@ -8,7 +8,8 @@ const Work = () => {
     {
       image: PickMeals,
       title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum",
+      btext: "ML Model",
     },
     {
       image: ChooseMeals,
@@ -21,6 +22,10 @@ const Work = () => {
       text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
   ];
+  const handleClick = () => {
+    window.location.href = "http://43.204.143.50:5000/heart";
+  };
+
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
@@ -39,6 +44,7 @@ const Work = () => {
             </div>
             <h2>{data.title}</h2>
             <p>{data.text}</p>
+            <button className="secondary-button" onClick={handleClick}>{data.btext}</button>
           </div>
         ))}
       </div>
