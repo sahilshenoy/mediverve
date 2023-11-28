@@ -23,7 +23,7 @@ const Work = () => {
     },
   ];
   const handleClick = () => {
-    window.location.href = "http://43.204.143.50:5000/heart";
+    window.location.href = "http://43.204.143.50:5002/";
   };
 
   return (
