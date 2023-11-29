@@ -24,7 +24,7 @@ const About = () => {
         What's Next?
         </h3> 
         <p className="primary-text">
-        Stay tuned for our intelligent chatbot and a geo-based hospital finder, designed to navigate you towards optimal health in emergency situations.
+        Stay tuned for our intelligent chatbot and Machine Learning Based Multiple Disease Detection Model, designed to navigate you towards optimal health in emergency situations.
         </p>
         <div className="about-buttons-container">
           {/* <button className="secondary-button">Learn More</button>
