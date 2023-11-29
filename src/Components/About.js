@@ -13,23 +13,24 @@ const About = () => {
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading">About Mediverve</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+        Healthcare, Enhanced by AI
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Mediverve leverages machine learning to translate your medical tests into actionable health insights. Our telemedicine platform connects you to healthcare professionals with ease, ensuring quality care at your convenience.
         </p>
+        <h3 className="primary-heading">
+        What's Next?
+        </h3> 
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        Stay tuned for our intelligent chatbot and a geo-based hospital finder, designed to navigate you towards optimal health in emergency situations.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          {/* <button className="secondary-button">Learn More</button>
           <button className="watch-video-button">
             <BsFillPlayCircleFill /> Watch Video
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

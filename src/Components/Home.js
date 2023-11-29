@@ -14,15 +14,14 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
+          Mediverve: Your Health, Our Technology
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+          Empowering your health journey with advanced medical insights and care at your fingertips.
           </p>
-          <button className="secondary-button">
+          {/* <button className="secondary-button">
             Order Now <FiArrowRight />{" "}
-          </button>
+          </button> */}
         </div>
         <div className="home-image-section rounded-3xl">
           <img src={BannerImage} alt="" />
