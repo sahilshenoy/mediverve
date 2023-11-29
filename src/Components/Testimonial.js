@@ -22,7 +22,7 @@ const Testimonial = () => {
         <div className="testimonials-stars-container">
           <AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar />
         </div>
-        <h2>Keshav Joshi</h2>
+        <h2>Sahil </h2>
       </div>
     </div>
   );
