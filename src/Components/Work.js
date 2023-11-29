@@ -15,7 +15,7 @@ const Work = () => {
       // image: ChooseMeals,
       title: "Schedule a Consultation",
       text: "Access a network of healthcare professionals for telemedicine consultations with just a few clicks. Book virtual appointments at your convenience and receive expert care wherever you are. ",
-      btext: "Book Appointment",
+      btext: "Book A Call",
     },
     {
       // image: DeliveryMeals,
@@ -34,7 +34,8 @@ const Work = () => {
         <p className="primary-subheading"></p>
         <h1 className="primary-heading">What we do</h1>
         <p className="primary-text">
-        Discover the simplicity and effectiveness of managing your health with Mediverve.
+          Discover the simplicity and effectiveness of managing your health with
+          Mediverve.
         </p>
       </div>
       <div className="work-section-bottom">
@@ -45,7 +46,9 @@ const Work = () => {
             </div>
             <h2>{data.title}</h2>
             <p>{data.text}</p>
-            <button className="secondary-button" onClick={handleClick}>{data.btext}</button>
+            <button className="secondary-button" onClick={handleClick}>
+              {data.btext}
+            </button>
           </div>
         ))}
       </div>
