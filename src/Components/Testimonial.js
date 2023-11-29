@@ -20,11 +20,7 @@ const Testimonial = () => {
           elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
         </p>
         <div className="testimonials-stars-container">
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
+          <AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar />
         </div>
         <h2>John Doe</h2>
       </div>
